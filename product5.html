@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>samsung</title>
+<style>
+    body{
+        align-items: center;
+        padding-top: 10%;
+        padding-left: 20%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        background-color: #6ec8f1;
+    }
+    img{
+        height: 35%;
+        width: 35%;
+    }
+    
+  button{
+    height: 50px;
+    width: 50px;
+    align-content: center;
+  }
+
+</style>
+<script>
+    function validate(){
+        alert("order has been placed to your address")
+    }
+</script>
+</head>
+<body>
+
+<header>
+  </header>
+
+<main>
+    
+  <div class="product-container">
+    <img src="C:\Users\sbala\Desktop\webpage\IMG-20231219-WA0015.jpg" alt="Product Image">
+    <div class="product-details">
+      <h1 style="color: #fff457;">Product Name  </h1> 
+      <h2>Hardware</h2>
+      <div class="variant-selector">
+        <label for="color">Color:</label>
+        <select id="color">
+          <option value="blue">Blue</option>
+          <option value="blue">Black</option>
+          <option value="blue">white</option>
+          </select>
+        <label for="storage">Storage:</label>
+        <select id="storage">
+          <option value="256">128 GB</option>
+          <option value="256">256 GB</option>
+          <option value="256">512 GB</option>
+          </select>
+      </div>
+     <br>
+      <div class="price">
+        <strike>₹1,56,900</strike>
+        <span class="original-price">₹1,59,900</span>
+      </div>
+      <div class="emi-option">
+        <h3>EMI  :  1,150/month</h3>
+      </div>
+      <br><br>
+      <center>
+        
+      <button style="background-color: #fff457;" onclick="validate()">Buy Now</button>
+      </center>  
+    
+    </div>
+  </div>
+</main>
+
+<footer>
+  </footer>
+
+</body>
+</html>
+
+
