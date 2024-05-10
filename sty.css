@@ -1,0 +1,176 @@
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            }
+        header {
+            background-color: #2b00ff;
+            color: #ffee00;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            }
+        nav:hover {
+            background-color: #58e6ff;
+            color: gray; 
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ff4a4a;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        section {
+            padding: 50px;
+        }
+        footer {
+            background-color: #ffffff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+            .features_scr {
+            width: 100%;
+            white-space: nowrap;
+            overflow-x: auto;
+            display: flex;
+           }    
+           .features{
+            min-width: 200px;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+           } 
+              
+                
+         section.features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+            background-color: #f4f4f4;
+            }    
+         .feature {
+            text-align: center;          
+            }    
+         .feature img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 25px;
+            }
+               
+         .about {
+            text-align: center;
+            padding: 40px;
+            }
+                
+         footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+           }
+        section.team {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            background-color: #f4f4f4;
+            }
+        section.team2 {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            background-color: #f4f4f4;
+            }
+        section.team3 {
+            display: flex;
+            width: 100%;
+             justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            background-color: #f4f4f4;
+            }
+        .team-member {
+            text-align: center;
+        }
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 20%;
+            margin-bottom: 20px;
+        }
+        section.service {
+            text-align: center;
+            padding: 40px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        section.service:last-child {
+            border-bottom: none;
+        } 
+        section.contact-form {
+            text-align: center;
+            padding: 40px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #2b00ff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #eaff00;
+            color: black;
+        }
+
+        section.contact-info {
+            text-align: center;
+            padding: 40px;
+            background-color: #f4f4f4;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
